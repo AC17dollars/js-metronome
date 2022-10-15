@@ -1,0 +1,91 @@
+body{
+    background-color: #261447;
+    font-family:sans-serif;
+    font-size: 12px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+#stop {
+    display: none;
+}
+
+.metronome-container {
+    /*flex*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#bpm-text{
+    text-align: center;
+    line-height: 100px;
+    font-size: 100px;
+    margin: 100px;
+}
+
+
+#bpm-minus{
+    /*text size*/
+    font-size: 40px;
+    float: left;
+    padding: 100px;
+    background-color: #CC978E;
+    border-radius: 20%;
+
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+
+}
+#bpm-plus{
+    font-size: 40px;
+    float: right;
+    padding: 100px;
+    background-color: #CC978E;
+    border-radius: 20%;
+
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.metronome-container {
+    padding: 20px;
+}
+
+#bpm-text {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.control-container button{
+    /*align <button> to center of container*/   
+    margin: 0 auto;
+    background-color: #C0BDA5;
+    padding: 50px;
+    border-radius: 15%;
+    color: white;
+    font-size: 30px;
+}
+.control-container {
+    /*align <button> to center of container*/   
+    text-align: center;
+}
+.title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin: 50px;
+}
+.tick-tok {
+    font-size: 40px;
+    text-align: center;
+}
+
